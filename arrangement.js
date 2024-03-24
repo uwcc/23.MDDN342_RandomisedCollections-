@@ -1,7 +1,6 @@
 /*
  * This program draws your arrangement of faces on the canvas.
  */
-
 const canvasWidth = 960;
 const canvasHeight = 500;
 let curRandomSeed = 0;
@@ -11,6 +10,7 @@ const millisPerSwap = 3000;
 
 // global variables for colors
 const bg_color1 = [71, 222, 219];
+
 function setup () {
   // create the drawing canvas, save the canvas element
   let main_canvas = createCanvas(canvasWidth, canvasHeight);
